@@ -1,0 +1,2 @@
+lang = "cpp"
+run = "g++ inorder_traversal.cpp; ./a.out;"
