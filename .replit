@@ -1,2 +1,2 @@
 lang = "cpp"
-run = "g++ inorder_traversal.cpp; ./a.out;"
+run = "g++ preorder_traversal.cpp; ./a.out;"
