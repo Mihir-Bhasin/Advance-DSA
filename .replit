@@ -1,2 +1,2 @@
 lang = "cpp"
-run = "g++ height_binary_tree.cpp; ./a.out;"
+run = "g++ Node_from_k.cpp; ./a.out;"
