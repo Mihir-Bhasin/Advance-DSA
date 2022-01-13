@@ -1,2 +1,2 @@
 lang = "cpp"
-run = "g++ level_order.cpp; ./a.out;"
+run = "g++ binary_tree_size.cpp; ./a.out;"
