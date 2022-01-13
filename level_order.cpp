@@ -41,3 +41,6 @@ int main() {
 	
 	printLevel(root);
 }
+
+tc->o(1)
+sp->o(n)
