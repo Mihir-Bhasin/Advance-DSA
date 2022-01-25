@@ -6,10 +6,10 @@ using namespace std;
 class Node{
   public:
   Node *next;
-  int key;
+  int data;
   Node(int k)
   {
-    key=k;
+    data=k;
     next=NULL;
 
   }
@@ -52,11 +52,26 @@ Node *sortedinsert(Node *head,int x){
   Node *curr=head;
   while(curr->next!=NULL && curr->next->data<x)
    curr=curr->next;
-
+  // to avoid the changes in the later part of the linked list
    temp->next=curr->next;
    curr->next=temp;
    return head;
-
-
-
 }
+
+// Middle of linked list
+
+
+void printmiddle(Node *head){
+
+  if(head==NULL)
+  return;
+  Node *slow=head,*fast=head;
+  while(fast!=NULL &&fast->next!=NULL)
+  {
+    slow=slow->next;
+    fast=fast->next->next;
+
+  }
+  cout<<slow->data;
+}
+
