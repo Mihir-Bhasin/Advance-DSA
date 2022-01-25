@@ -126,3 +126,11 @@ Node *reverse(Node *head){
     }
     return prev;
 }
+//reverse a linked list recussion.
+
+Node *recRevL(Node *curr,Node *prev){
+    if(curr==NULL)return prev;
+    Node *next=curr->next;
+    curr->next=prev;
+    return recRevL(next,curr);
+}
