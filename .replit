@@ -1,2 +1,2 @@
 lang = "cpp"
-run = "g++ Children_sum_property.cpp;  ./a.out; "
+run = "g++ practice/Children_sum_property.cpp;  ./a.out; "
