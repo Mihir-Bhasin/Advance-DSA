@@ -136,7 +136,7 @@ Node *recRevL(Node *curr,Node *prev){
 }
 
 
-//reverse kth node
+//reverse ll recursive kth node
 
 Node *reverseK(Node *head,int k){
     Node *curr=head,*next=NULL,*prev=NULL;
